@@ -22,7 +22,7 @@ const AddProducts = ({crearProductos}) => {
     });
   }
 
-  const {nombre, precioU, cantidad, precio,descripcion} = products;
+  const {nombre, cantidad, precio,descripcion} = products;
 
   const submitProducto = (e) =>{
     e.preventDefault();
